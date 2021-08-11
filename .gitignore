@@ -22,6 +22,4 @@ hs_err_pid*
 # IntelliJ project files
 .idea
 *.iml
-out
-gen
-.DS_Store
+

@@ -9,5 +9,8 @@
         <module name="movie_analysis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="movie_analysis" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

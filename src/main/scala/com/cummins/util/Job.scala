@@ -9,9 +9,9 @@ import org.apache.spark.sql.SparkSession
  * SAVE : [TableName]
  */
 trait Job {
-  val spark: SparkSession = SparkSession.builder().master("local[*]").getOrCreate()
+  val spark: SparkSession = SparkSession.builder().config("spark.testing.memory", "2147480000").master("local[*]").getOrCreate()
   spark.sqlContext.setConf("spark.sql.session.timeZone", "UTC")
-  spark.sparkContext.setLogLevel("WARN")
+  spark.sparkContext.setLogLevel("ERROR")
 
   def main(args: Array[String]): Unit = {
     run()

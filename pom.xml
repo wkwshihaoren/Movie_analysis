@@ -5,11 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>test_project</groupId>
-    <artifactId>test_job</artifactId>
+    <artifactId>movie_analysis</artifactId>
     <version>1.15-SNAPSHOT</version>
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
         <encoding>UTF-8</encoding>
         <scala.version>2.11.8</scala.version>
         <scala.compat.version>2.11</scala.compat.version>
